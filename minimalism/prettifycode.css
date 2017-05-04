@@ -1,0 +1,181 @@
+pre.prettyprint * {
+    font-family: Inconsolata, Profont, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 100%;
+}
+
+pre.prettyprint {
+    /*    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;*/
+}
+
+code.prettyprint,
+pre.prettyprint {
+    padding: 12px 0;
+    background-color: #444444;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    display: block;
+    overflow: auto;
+}
+
+
+/*linenumbers*/
+
+code.prettyprint .linenums,
+pre.prettyprint .linenums {
+    /*
+    -webkit-box-shadow: inset 0px 0 0 #f7f7f9,inset 0px 0 0 #ececf0;
+    -moz-box-shadow: inset 0px 0 0 #f7f7f9,inset 0px 0 0 #ececf0;
+    box-shadow: inset 0px 0 0 #f7f7f9,inset 0px 0 0 #ececf0
+    */
+}
+
+pre * {
+    white-space: pre;
+    border: 0;
+}
+
+pre {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.desc *,
+#content * {
+    word-wrap: normal;
+}
+
+code.prettyprint ol.linenums,
+pre.prettyprint ol.linenums {
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+code.prettyprint ol.linenums li,
+pre.prettyprint ol.linenums li {
+    padding-left: 0;
+    padding-right: 1.5em;
+    color: #ccc;
+    line-height: 1.5em;
+}
+
+
+/*component*/
+
+code.prettyprint .com,
+pre.prettyprint .com {
+    color: #aaa
+}
+
+
+/*number?light?literal?shuzhi?*/
+
+code.prettyprint .lit,
+pre.prettyprint .lit {
+    color: #6c6
+}
+
+
+/*punctuation*/
+
+code.prettyprint .pun,
+pre.prettyprint .pun {
+    color: #aaa
+}
+
+
+/**/
+
+code.prettyprint .opn,
+pre.prettyprint .opn {
+    color: #4c4
+}
+
+
+/**/
+
+code.prettyprint .clo,
+pre.prettyprint .clo {
+    color: #4c4
+}
+
+
+/*function*/
+
+code.prettyprint .fun,
+pre.prettyprint .fun {
+    color: #cc5
+}
+
+
+/*string*/
+
+code.prettyprint .str,
+pre.prettyprint .str {
+    color: #c55
+}
+
+
+/**/
+
+code.prettyprint .atv,
+pre.prettyprint .atv {
+    color: #c55
+}
+
+
+/*keyword*/
+
+code.prettyprint .kwd,
+pre.prettyprint .kwd {
+    color: #ff359a
+}
+
+
+/*tag*/
+
+code.prettyprint .tag,
+pre.prettyprint .tag {
+    color: #66f
+}
+
+
+/*type?ziti?*/
+
+code.prettyprint .typ,
+pre.prettyprint .typ {
+    color: #77f
+}
+
+
+/**/
+
+code.prettyprint .atn,
+pre.prettyprint .atn {
+    color: #70f
+}
+
+
+/**/
+
+code.prettyprint .dec,
+pre.prettyprint .dec {
+    color: #55c
+}
+
+
+/*var*/
+
+code.prettyprint .var,
+pre.prettyprint .var {
+    color: #cc6
+}
+
+
+/*plain?*/
+
+code.prettyprint .pln,
+pre.prettyprint .pln {
+    color: #00f0f0
+}
