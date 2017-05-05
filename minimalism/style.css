@@ -896,6 +896,8 @@ table tr:nth-child(2n) {
   text-align: center;
   box-sizing: border-box;
   font-size: 14px;
+  border-top: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f1f2f3;
 }
 
 .widget-reward-me * {
@@ -916,8 +918,8 @@ table tr:nth-child(2n) {
   display: block;
   width: 56px;
   height: 56px;
-  margin: 0 auto;
   padding: 0;
+  margin: 20% auto;
   -webkit-user-select: none;
   text-align: center;
   vertical-align: middle;
@@ -1018,7 +1020,7 @@ span.wechat-code {
 
 .money-notice {
   font-size: 0.8em;
-  margin: 1em auto 0;
+  margin: 1em auto;
   padding: 0;
   max-width: 70%;
   display: block;
