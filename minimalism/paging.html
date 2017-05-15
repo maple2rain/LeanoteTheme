@@ -18,11 +18,15 @@
     {{set . "nextPageUrl" "#"}}
 {{end}}
 
+{{set . "lastPageUrl" (urlConcat $.pagingBaseUrl "page" ($.paging.TotalPage)) }}
+
 
 <ul class="pager">
+    <li class="{{$.prePageClass}}"><a href="{{$.indexUrl}}">First</a></li>
 	<li class="{{$.prePageClass}}"><a href="{{$.prePageUrl}}">Pre</a></li>
 	<li>{{$.paging.CurPage}}/{{$.paging.TotalPage}}</li>
 	<li class="{{$.nextPageClass}}"><a href="{{$.nextPageUrl}}">Next</a></li>
+	<li class="{{$.nextPageClass}}"><a href="{{$.lastPageUrl}}">Last</a></li>
 </ul>
 
 {{end}}
