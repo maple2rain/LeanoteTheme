@@ -4,8 +4,8 @@ html {
 
 #posts img {
   max-width: 100%;
-  /*margin: 0 auto;*/
-  /*display: block;*/
+  margin: 0 auto;
+  display: block;
 }
 
 #content *,
