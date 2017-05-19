@@ -550,12 +550,15 @@ a:hover {
 
 #posts {
   width: 100%;
+  background-color: #3a3535;
 }
 
 #posts .each-post {
-  /*border-bottom: 2px solid #dddddd;*/
-  margin-bottom: 10px;
-  padding: 0 15% 0 10%;
+  border-bottom: 2px solid #dddddd;
+  background-color: #ebeef2;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0 2% 0 2%;
   padding-top: 10px;
 }
 
@@ -1026,4 +1029,8 @@ span.wechat-code {
   display: block;
   text-align: center;
   color: #666;
+}
+
+hr {
+    border-top: 1px solid #3a3535;
 }
